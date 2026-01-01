@@ -8,10 +8,11 @@
 <div class="min-h-screen flex flex-col">
   <div class="navbar bg-base-100 shadow-sm">
     <div class="flex-1">
-      <a class="btn btn-ghost text-xl">
+      <a class="btn btn-ghost text-xl" href="/">
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/5/53/Pok%C3%A9_Ball_icon.svg"
           class="h-8"
+          alt="Pokeball Icon"
         />
         Pokémon Game Planner</a
       >

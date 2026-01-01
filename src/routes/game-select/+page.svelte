@@ -1,3 +1,7 @@
+<script>
+  import { PokemonClient } from "pokenode-ts";
+</script>
+
 <!-- Cool Title Header -->
 <div class="hero min-h-[200px] to-red-600">
   <div class="hero-content text-center">
@@ -12,7 +16,6 @@
 </div>
 
 <div class="join join-vertical p-6 flex flex-col">
-
   <div class="collapse collapse-arrow join-item border-base-300 border">
     <input type="radio" name="my-accordion-4" />
     <div class="collapse-title font-semibold">Generation 1</div>
