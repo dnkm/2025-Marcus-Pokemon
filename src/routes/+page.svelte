@@ -51,6 +51,35 @@
         </div>
       </a>
     </div>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+      <div class="footer-content">
+        <p class="footer-main">
+          Made with ❤️ and passion for Pokémon by <strong>Marcus Chung</strong>
+        </p>
+        <div class="footer-credits">
+          <p>Powered by:</p>
+          <div class="footer-links">
+            <a
+              href="https://pokeapi.co/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              PokéAPI
+            </a>
+            <span>•</span>
+            <a
+              href="https://github.com/PokeAPI/pokedex-promise-v2"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Pokedex Promise v2
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
 </div>
 
@@ -161,6 +190,58 @@
 
   .animate-fade-in-up {
     animation: fadeInUp 0.8s ease-out 0.2s both;
+  }
+
+  .footer-section {
+    margin-top: auto;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .footer-content {
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .footer-main {
+    font-size: 16px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  }
+
+  .footer-main strong {
+    font-weight: 700;
+    color: white;
+  }
+
+  .footer-credits {
+    opacity: 0.85;
+    font-size: 13px;
+  }
+
+  .footer-credits p {
+    margin-bottom: 0.25rem;
+  }
+
+  .footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .footer-links a {
+    color: rgba(255, 255, 255, 0.95);
+    text-decoration: underline;
+    transition: color 0.2s ease;
+  }
+
+  .footer-links a:hover {
+    color: white;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
   }
 
   @media (max-width: 640px) {
